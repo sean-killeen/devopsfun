@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName":{
+      "value": "skdecodedcon"
+    },
+    "location": {
+      "value": "West US"
+    },
+    "adminUsername": {
+      "value": "seankilleen"
+    },
+    "sshKeyData": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsyYMmgwJxQCNj+t1O5FBRaUYoVDIoaCYtwTIbI859qL+liaB3qF8ZoiUxKJvh0UJ6HiCtsM+3BAExUXG4QnMiw+pjx2cbQAuoHeKjisCPcemM28gSFCqh6wWSKcugAmF919DKLbPYchCxPxja14+ZBkpzsxZT34tpcpdey7g11En/vz5ijybDH6RhNFf726XCElDrQZWoR0Remq25DywwXrD7MzvqbCo5UMcfkX26Q168lT5k/FIx8WdwQF4vKvymwfIZUeypy+rssY6JyHB1OY3D4ICLD/aLXVfm8dTvrrp8CXq2WYSENj4B0L2VfAe3qVbGx0XAcZBM01FUDek0YZqSrC4NovAJxqmttX7ljjzELcrdlhFXyOk+mfk4GSIv72FhAe/0AwRZyGkx6o5jSmxjI2gFLGcShZpL5JonXUUrOa28CjQgRXMeygI3zYSQ3RvH5m2+LzcPf50OqQYFUd/YbrIfC8Kk8PP8yKjvUx5/PvBRYXXeL3tRERklNz3VcrJBzpUsZygz/qMOv6Rt+j0aNYKs4YCyPeXSReeM08+kkCctREHk0RCsmjNOFMpuoyVmmn/ElXzsK2mFm3PNP1wPVNPIih3hyuynOJnK3QDtXDbcQYpWix5+UodjQg3Q2+wMCII5KFFZI+SvpZ7IaKkSsqeoV6+/seCbHb5kMQ== [killeen.sean@gmail.com]"
+    },
+    "dnsNameForPublicIP": {
+      "value": "skdecodedcon"
+    },
+    "dokkuVersion": {
+      "value": "0.5.2"
+    }
+  }
+}
